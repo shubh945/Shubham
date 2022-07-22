@@ -2,12 +2,6 @@
 - hosts: myappserver
   become: Yes
   tasks:
-    - name: want to install tree
-      apt:
-        name: "{{mywebpackage}}"
-        state: present
-      when: ansible_os_family=="RedHat"
-
     - name: want to install git
       apt:
         name: "{{java}}"
