@@ -6,4 +6,4 @@
       apt:
         name: apache2
         state: present
-      when: ansibian_os_family=="Debiangit"
+      when: ansibian_os_family=="Debian"
