@@ -10,5 +10,5 @@
 
     - name: want to install git
       apt:
-        name: "{{software}}"
+        name: "{{java}}"
         state: present
