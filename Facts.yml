@@ -1,5 +1,5 @@
 ---
-- hosts: mywebserver
+- hosts: myappserver
   become: Yes
   tasks:
     - name: want to install tree
