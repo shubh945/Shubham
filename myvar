@@ -10,3 +10,6 @@
 [mydbserver]
 172.31.81.54
 172.31.95.154
+
+[mydbserver: vars]
+mywebpackage = apache2
