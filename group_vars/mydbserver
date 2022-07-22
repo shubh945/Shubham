@@ -1,2 +1,2 @@
-[mydbserver: vars]
+[mydbserver:vars]
 mywebpackage= tree
