@@ -2,7 +2,7 @@
 - hosts: mydbserver
   become: Yes
   tasks:
-    - name: want to install apache
+    - name: want to install tree
       apt:
         name: "{{mywebpackage}}"
         state: present
