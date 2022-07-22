@@ -4,6 +4,6 @@
   tasks:
     - name: want to install apache
       apt:
-        name: apache2
+        name: "{{mywebpackage}}"
         state: present
       when: ansible_os_family=="Debian"
