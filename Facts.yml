@@ -1,5 +1,5 @@
 ---
-- hosts: myappserver
+- hosts: mywebserver
   become: Yes
   tasks:
     - name: want to install apache
