@@ -6,3 +6,16 @@
       apt:
         name: "{{java}}"
         state: present
+      tags: first
+
+    - name: want to install git
+      apt:
+        name: git
+        state: present
+      tags: second
+
+    - name: want to install tree
+      apt:
+        name: tree
+        state: present
+      tags: third
