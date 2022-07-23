@@ -2,7 +2,7 @@
 - hosts: myappserver
   become: Yes
   tasks:
-    - name: want to install git
+    - name: want to install java
       apt:
         name: "{{java}}"
         state: present
